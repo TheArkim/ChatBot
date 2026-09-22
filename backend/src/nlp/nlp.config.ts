@@ -36,4 +36,4 @@ manager.addAnswer("en", "food", "sushi never disappoints");
 manager.addAnswer("en", "joke", "what do you call a magic dog?  A labracadabrador!");
 manager.addAnswer("en", "joke", "what do cows say when they hear a bad joke?  I am not amooosed");
 
-module.exports = manager;
+export default manager;

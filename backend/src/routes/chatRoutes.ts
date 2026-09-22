@@ -1,8 +1,7 @@
 import express from 'express';
-
-const chatController = require('../controllers/chatController');
+import { processMessage } from '../controllers/chatController';
 const router = express.Router();
 
-router.get('/', chatController.processMessage);
+router.get('/', processMessage);
 
-module.exports = router;
+export default router;
